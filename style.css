@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.left-container {
+    width: 42vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.login-from-container {
+    box-sizing: border-box;
+    background-color: #dbf4f8;
+    width: 40vw;
+    height: 100vh;
+}
+
+.login-box {
+    display: flex;
+    width: 40vw;
+    height: 100vh;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.login-box form>header h1 {
+    font-size: 2.1rem;
+}
+
+.login-box form>header p {
+    font-size: 0.944rem;
+}
+.image-container{
+    width: 100%;
+    height: 100vh;
+}
+.image-container>img {
+    width: 100%;
+    height:100%;
+}
+
+.input-fieldBox {
+    margin: 60px 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+    align-items: flex-end;
+    font-size: 0.782rem;
+}
+
+.input-fieldBox input {
+    width: 30vw;
+    height: 7vh;
+    border: none;
+    border-radius: 8px;
+    margin-top: 2px;
+    outline: none;
+    padding: 8px;
+}
+
+.input-fieldBox>label input::placeholder {
+    opacity: 37%;
+    font-size: 0.900rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-internal-autofill-selected {
+transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+
+
+.input-fieldBox >a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+}
+
+.form-lower{
+    font-size: 0.781rem;
+}
+.form-lower > a{
+    text-decoration: none;
+    font-weight: 500;
+     color: green;
+} 
+form button{
+    font-size: 0.978 rem;
+    width:100%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(  to top left, #d8f7fc,  #7bcbd9);
+}   
+form button:hover{
+    transition:  all 200ms ease;
+    font-weight: 600;
+    cursor: pointer;
+    background: linear-gradient(  to top right, #ccf5fc, #7bcbd9);
+    
+}
+.info-section{
+    position: relative;
+    z-index: 1;
+    bottom: 60px;
+    right: 65px;
+}
+.info-section span{
+    padding: 1px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 0.62rem;
+    margin:  auto 20%;
+    display: block;opacity: 80%;
+    
+    color: rgb(5, 57, 105);
+}
+.info-section >span >a{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(18, 94, 165);
+    text-decoration: none;
+    font-size: 0.62rem;
+    opacity: 80%;
+}
