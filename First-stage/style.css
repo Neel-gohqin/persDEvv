@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav,.navBox {
+    margin: 0px auto;
+    width: 95vw;
+    height: 18vh;
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.logoBox {
+    display: inline-block;
+    margin: 0% 2%;
+  
+}
+.logoBox>img {
+    padding-top: 13px;
+    width: 82px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.list-items {
+    width: auto;
+    height: auto;
+    display: inline;
+    padding: 0% 19%;
+    
+}
+
+.list-items>li {
+    
+    font-size: 1.3rem;
+    display: inline;
+    padding: 0px 21px;
+    list-style: none;
+    cursor: pointer;
+    color: rgb(37, 40, 37);
+}
+
+.list-items :hover {
+ 
+    color: rgb(14 142 117);
+}
+
+.userBox>button {
+    width: 110px;
+    height: 50px;
+    font-size: 0.688rem;
+    font-weight: bold;
+    background-color: rgba(141, 203, 167, 0.479);
+    border-radius: 16px;
+    border: none;
+    color: rgb(12, 114, 20);
+    cursor: pointer;
+}
+.left-div{
+    width: 45%;
+    height: auto;
+    text-align: left;
+    float: left;
+}
+.left-div > h1{
+    font-size: 2.25rem;
+    line-height: 65px;
+    margin: 45px 0px 0px 40px;
+    color: rgb(40, 37, 37);
+}
+.left-div >p{
+    margin: 10px 0px 50px 40px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 25px;
+    color: rgb(33, 70, 55);
+    
+}
+.left-div button{
+    width: 190px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #08a8ff;
+    margin: 0px 40px;
+    font-size: 0.813rem;
+    cursor: pointer;
+    
+}
+.Right-div{
+    display: inline;
+    border: none;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.Right-div > img{
+    width: 680px;
+    height: 480px;
+    border: none;
+}
