@@ -1,137 +1,107 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
-
-main {
-    overflow: hidden;
-    box-sizing: border-box;
+.hero-sec{
     display: flex;
-    justify-content: center;
-}
-
-.left-container {
-    width: 42vw;
-    height: 100vh;
-    box-sizing: border-box;
-}
-
-.login-from-container {
-    box-sizing: border-box;
-    background-color: #dbf4f8;
-    width: 40vw;
-    height: 100vh;
-}
-
-.login-box {
-    display: flex;
-    width: 40vw;
+    width: 100vw;
     height: 100vh;
     justify-content: center;
-    align-items:center;
+    align-items: center;
+    background-image: url(picback.jpg);
+    background-size: cover;
+    background-position: left;
+
+}
+.fomr-container >form header {
     text-align: center;
+    font-size: 1.2rem;
+    color: #c6a778;
 }
-
-.login-box form>header h1 {
-    font-size: 2.1rem;
+.fomr-container{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid #827d7d;
+    backdrop-filter: blur(3.5px);
 }
-
-.login-box form>header p {
-    font-size: 0.944rem;
-}
-.image-container{
-    width: 100%;
-    height: 100vh;
-}
-.image-container>img {
-    width: 100%;
-    height:100%;
-}
-
-.input-fieldBox {
-    margin: 60px 90px;
+.input-box{
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    text-align: left;
-    align-items: flex-end;
-    font-size: 0.782rem;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    margin-top: 85px;
+    gap: 3px;
 }
-
-.input-fieldBox input {
-    width: 30vw;
-    height: 7vh;
+.input-box > input{
+    background: transparent;
     border: none;
-    border-radius: 8px;
-    margin-top: 2px;
+    outline:none;
+    border-bottom: 1px solid rgb(213, 208, 208);
+    height: 3vh;
+    width: 24vw;
+    font-size: 0.854rem;
+    padding: 3px 5px 3px 5px;
+    color: white;
+}
+.input-box > input::placeholder{
+    font-size: 0.750rem;
+    color:#efc07a;
+}
+
+.all-labes{
+    font-size: 0.859rem;
+    position:relative;
+    top: 20px;
+    border: none;
     outline: none;
-    padding: 8px;
 }
-
-.input-fieldBox>label input::placeholder {
-    opacity: 37%;
-    font-size: 0.900rem;
+.fomr-container >form button{
+    width: 24vw;
+    height: 6vh;
+    padding: 6px;
+    border: none;
+    font-size: 2vh;
+    border-radius: 6px;
+    cursor: pointer;
+    background: linear-gradient(to top,#2f2e2d,#efc07a);
+    margin-top: 70px;
 }
+.fomr-container >form button:hover{
 
+    background: linear-gradient(to top,#3c3531,#dba85c);
+}
+.fomr-container >form button:active{
+
+    background: linear-gradient(to top,#3c3531,#bd914d);
+}
+.user-frgt{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1px 0px 0px 0px;
+    font-size: 0.780rem;
+}
+.sign_with-othrs{
+    color: #e3ddd5;
+    margin-top: 25px;
+    font-size: 0.640rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+form a{
+    color: #c6a778;
+    text-decoration: none;
+}
 input:-webkit-autofill,
 input:-webkit-autofill:focus,
 input:-internal-autofill-selected {
 transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
-}
-
-
-.input-fieldBox >a{
-    color: black;
-    text-decoration: none;
-    position: relative;
-    bottom: 20px;
-}
-
-.form-lower{
-    font-size: 0.781rem;
-}
-.form-lower > a{
-    text-decoration: none;
-    font-weight: 500;
-     color: green;
-} 
-form button{
-    font-size: 0.978 rem;
-    width:100%;
-    height: 45px;
-    border-radius: 10px;
-    border: none;
-    background: linear-gradient(  to top left, #d8f7fc,  #7bcbd9);
-}   
-form button:hover{
-    transition:  all 200ms ease;
-    font-weight: 600;
-    cursor: pointer;
-    background: linear-gradient(  to top right, #ccf5fc, #7bcbd9);
-    
-}
-.info-section{
-    position: relative;
-    z-index: 1;
-    bottom: 60px;
-    right: 65px;
-}
-.info-section span{
-    padding: 1px;
-    font-family: sans-serif;
-    text-decoration: none;
-    font-size: 0.62rem;
-    margin:  auto 20%;
-    display: block;opacity: 80%;
-    
-    color: rgb(5, 57, 105);
-}
-.info-section >span >a{
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(18, 94, 165);
-    text-decoration: none;
-    font-size: 0.62rem;
-    opacity: 80%;
 }
