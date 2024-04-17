@@ -61,7 +61,7 @@ body {
 }
 
 .userBox>button {
-    padding-right: 5px;
+    padding-right: 8px;
     width: 80px;
     height: 40px;
     font-size: 0.782rem;
@@ -217,6 +217,7 @@ body {
 }
 
 
+
 @media screen and (min-width:481px) and (max-width:769px) {
     * {
         margin: 0;
@@ -308,6 +309,7 @@ body {
 
     }
 }
+
 
 
 @media screen and (max-width:481px) {
