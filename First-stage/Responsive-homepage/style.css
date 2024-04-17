@@ -11,17 +11,17 @@
     --default-border: 1px solid black;
     --main-color: green;
     --secondry-color: red;
-    --links-color:black;
-    --default-font-color:rgb(40, 37, 37);
+    --links-color: black;
+    --default-font-color: rgb(40, 37, 37);
     --transition-hambuerger: opacity 550ms ease-in-out, width 220ms ease-in-out;
-    
+
 }
 
 body {
     font-family: Poppins, Roboto;
-    
+
     overflow-x: hidden;
-    
+
 }
 
 .navBox {
@@ -29,13 +29,13 @@ body {
     padding: 6px 0px;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 
 }
 
 .rightnavlist>.list-items {
     display: flex;
-    gap: 35px;
+    gap: 26px;
 }
 
 .rightnavlist>.list-items>li {
@@ -43,7 +43,8 @@ body {
     list-style: none;
     font-size: 1.2rem;
 }
-.rightnavlist a{
+
+.rightnavlist a {
     text-decoration: none;
     color: var(--links-color);
 }
@@ -60,7 +61,7 @@ body {
 }
 
 .userBox>button {
-    margin-right: 8px;
+    padding-right: 5px;
     width: 80px;
     height: 40px;
     font-size: 0.782rem;
@@ -92,7 +93,7 @@ body {
 .left-div>h1 {
     font-size: 2rem;
     line-height: 50px;
-    color:var(--default-font-color);
+    color: var(--default-font-color);
 }
 
 .left-div>p {
@@ -102,7 +103,7 @@ body {
     font-size: 0.875rem;
     line-height: 25px;
     color: var(--default-font-color);
-    
+
 }
 
 .left-div button {
@@ -114,9 +115,10 @@ body {
     background-color: #08a8ff;
     font-size: 0.813rem;
     cursor: pointer;
-    
+
 }
-.left-div button:active{
+
+.left-div button:active {
     background-color: #1cae85;
 }
 
@@ -128,11 +130,11 @@ body {
 
 .Right-div>img {
     width: 100%;
-    height: 52vh;
+    height: 55vh;
     border: none;
 }
 
-.droplist{
+.droplist {
     display: none;
     font-size: 0.820rem;
     list-style: none;
@@ -141,6 +143,7 @@ body {
     width: 100px;
     height: 58px;
 }
+
 .list-items li:nth-child(1):hover .droplist {
     list-style: none;
     display: block;
@@ -149,7 +152,7 @@ body {
 }
 
 
-.ham-Menu{
+.ham-Menu {
     background-color: rgb(248, 243, 243);
     border-radius: 10px;
     width: 30px;
@@ -162,20 +165,23 @@ body {
     justify-content: center;
     align-items: center;
 }
-.bars{
+
+.bars {
     border-radius: 2px;
     width: 22px;
     height: 2px;
     background-color: #b1adad;
 }
-.mobile-menu{
-        display: none;
-        
-    }
-    .innermenu{
-        display: none;
-        color: white;
-        width: 40vw;
+
+.mobile-menu {
+    display: none;
+
+}
+
+.innermenu {
+    display: none;
+    color: white;
+    width: 40vw;
     height: 70vh;
     background-color: var(--default-font-color);
     position: absolute;
@@ -183,16 +189,18 @@ body {
     right: 5px;
     border: var(--default-border);
 }
-.bars:hover,.ham-Menu:hover {
+
+.bars:hover,
+.ham-Menu:hover {
     width: 0;
     opacity: 0;
     transition: var(--transition-hambuerger);
     overflow: hidden;
-    
+
 }
 
-.mobile-menu:hover .innermenu{
-    display: block; 
+.mobile-menu:hover .innermenu {
+    display: block;
     color: white;
     width: 30vw;
     height: 40vh;
@@ -209,32 +217,38 @@ body {
 }
 
 
-@media screen and (min-width:658px) and (max-width:769px){
-    *{
+@media screen and (min-width:481px) and (max-width:769px) {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    .hero{
+
+    .rightnavlist>.list-items {
+        display: flex;
+        gap: 15px;
+    }
+
+    .hero {
         margin-top: 30px;
         display: flex;
         align-items: flex-start;
-        justify-content: center;    
+        justify-content: center;
         width: 100vw;
         height: 100vh;
         gap: 10px;
     }
-    
+
     .left-div {
         width: 47vw;
         height: 40vh;
-         padding: 0px 12px;
+        padding: 0px 12px;
     }
 
     .left-div>h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         line-height: 43px;
-        color:var(--default-font-color);
+        color: var(--default-font-color);
     }
 
     .left-div>p {
@@ -243,7 +257,7 @@ body {
         font-weight: bold;
         font-size: 0.866rem;
         line-height: 22px;
-        color:var(--default-font-color);
+        color: var(--default-font-color);
 
     }
 
@@ -258,233 +272,95 @@ body {
         height: 50vh;
         border: none;
     }
+
     .rightnavlist>.list-items>li {
         list-style: none;
-        font-size: 1.1rem;
+        font-size: 0.900rem;
     }
+
     .logoBox>a>img {
         width: 70px;
         height: 60px;
         cursor: pointer;
     }
+
     .userBox>button {
-    margin-right: 4px;
+        margin-right: 4px;
 
-}
-.left-div button {
-    width: 135px;
-    height: 42px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    background-color: #08a8ff;
-    font-size: 0.780rem;
-    cursor: pointer;
-
-}
-
-}
-
-
-
-
-
-
-@media screen and (min-width:604px) and (max-width:658px) {
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .left-div>h1 {
-
-        font-size: 1.6rem;
-        line-height: 34px;
-        color: var(--);
-    }
-    .left-div>p {
-        margin: 22px 0px 20px 0px;
-        text-align: left;
-        font-weight: bold;
-        font-size: 0.790rem;
-        line-height: 22px;
-        color: rgb(33, 70, 55);
-
-    }
-
-    .rightnavlist>.list-items {
-        display: flex;
-        gap: 25px;
-    }
-
-    .rightnavlist>.list-items>li {
-  
-        font-size: 1rem;
-    }
-
-    .logoBox>a>img {
-        width: 60px;
-        height: 48px;
     }
 
     .left-div button {
-        width: 120px;
-        height: 35px;
+        width: 135px;
+        height: 42px;
         border: none;
         border-radius: 10px;
         color: white;
         background-color: #08a8ff;
-        font-size: 0.610rem;
+        font-size: 0.770rem;
         cursor: pointer;
-    
+
     }
-}
 
+    .userBox>button {
+        width: 50px;
+        height: 35px;
+        font-size: 0.650rem;
 
-
-
-
-
-@media screen and (max-width:604px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
     }
-.hero{
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;    
-    width: 100vw;
-    height: 100vh;
-    gap: 15px;
-}
-
-
-.left-div {
-    width: 70vw;
-    text-align: center;
-    height: 70vh;
-}
-
-.left-div>h1 {
-    font-size: 1.3rem;
-    line-height: 40px;
-    color:var(--default-font-color);
-}
-
-.left-div>p {
-    margin: 30px 0px 10px 0px;
-    text-align:center;
-    font-weight: bold;
-    line-height: 22px;
-    color:var(--default-font-color);
-
-}
-
-.Right-div {
-    object-fit: cover;
-    width: 70vw;
-    height: 55vh;
-}
-
-.Right-div>img {
-    width: 100%;
-    height: 45vh;
-    border: none;
-}
-
-.navBox {
-    padding: 2px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.rightnavlist>.list-items {
-    display: flex;
-    gap: 15px;
-}
-
-.rightnavlist>.list-items>li {
-    list-style: none;
-    font-size: 0.800rem;
-}
-
-.logoBox>a>img {
-    width: 45px;
-    height: 40px;
-    cursor: pointer;
-}
-
-
-.userBox>button {
-    margin-right: 4px;
-    width: 48px;
-    height: 36px;
-    font-size: 0.675rem;
-    font-weight: bolder;
-    background-color: rgba(141, 203, 167, 0.479);
-    border-radius: 16px;
-    border: none;
-    color: rgb(12, 114, 20);
-    cursor: pointer;
-    transition: all 250ms ease-in-out;
-}
-.left-div button {
-    width: 118px;
-    height: 35px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    background-color: #08a8ff;
-    font-size: 0.645rem;
-    cursor: pointer;
-
-}
-
 }
 
 
 @media screen and (max-width:481px) {
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-    .list-items>li{
+    .hero {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        gap: 12px;
+    }
+
+    .list-items>li {
         display: none;
     }
-    .left-div{
+
+    .left-div {
         width: 100%;
         height: auto;
 
     }
-    .Right-div{
-        width: 100%;
-        height: 40vh;
+
+    .left-div>h1 {
+        font-size: 1.2rem;
+        line-height: 36px;
+        color: var(--default-font-color);
     }
-    .userBox>button {
-        position: absolute ;
-        top: 10px;
-        right: 40px;
-        width: 43px;
-        height: 25px;
-        font-size: 0.450rem;
-        font-weight: bolder;
-        background-color: rgba(141, 203, 167, 0.479);
-        border-radius: 7px;
-        border: none;
-        color: rgb(12, 114, 20);
-        cursor: pointer;
-        transition: all 310ms ease-in-out;
+
+    .left-div>p {
+
+        font-size: 0.725rem;
+        margin: 30px 0px 10px 0px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 22px;
+        color: var(--default-font-color);
     }
+
+    .Right-div {
+        object-fit: cover;
+        width: 70vw;
+        height: 55vh;
+    }
+
     .left-div button {
         width: 100px;
         height: 35px;
@@ -492,37 +368,38 @@ body {
         border-radius: 10px;
         color: white;
         background-color: #08a8ff;
-        font-size: 0.520rem;
+        font-size: 0.550rem;
         cursor: pointer;
         outline: none;
-    
-}
-.hero{
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;    
-    width: 100vw;
-    height: 100vh;
-    gap: 15px;
-}
-.mobile-menu{
-    display: block;
-}
-.left-div>h1 {
-    font-size: 1.2rem;
-    line-height: 44px;
-    color:var(--default-font-color);
-}
-.left-div >p{
-    
-    font-size: 0.725rem;
-}
-.logoBox>a>img {
-    width: 45px;
-    height: 35px;
-}
+    }
 
+    .userBox>button {
+        position: absolute;
+        top: 10px;
+        right: 40px;
+        width: 42px;
+        height: 25px;
+        font-size: 0.490rem;
+    }
+
+    .hero {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        gap: 15px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .logoBox>a>img {
+        width: 45px;
+        height: 35px;
+    }
 
 }
