@@ -64,11 +64,11 @@ body {
     color: rgb(12, 114, 20);
     cursor: pointer;
 }
-
 .hero {
+    padding-top: 50px;
     box-sizing: border-box;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,7 +119,7 @@ body {
 
 .Right-div>img {
     width: 100%;
-    height: 50vh;
+    height: 53vh;
     border: none;
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 
-@media all and (max-width:768px) {
+@media all and (max-width:769px) {
     *{
         margin: 0;
         padding: 0;
@@ -149,17 +149,18 @@ body {
 
     .left-div {
         width: 47vw;
-         padding: 12px;
+        height: 80vh;
+         padding: 0px 12px;
     }
 
     .left-div>h1 {
-        font-size: 2.20rem;
+        font-size: 1.7rem;
         line-height: 44px;
         color: rgb(40, 37, 37);
     }
 
     .left-div>p {
-        margin: 35px 0px 55px 0px;
+        margin: 20px 0px 12px 0px;
         text-align: left;
         font-weight: bold;
         font-size: 0.866rem;
@@ -171,6 +172,7 @@ body {
     .Right-div {
         object-fit: cover;
         width: 47vw;
+        height: 80vh;
     }
 
     .Right-div>img {
@@ -195,7 +197,7 @@ body {
         padding: 0;
         box-sizing: border-box;
     }
-
+   
     .left-div>h1 {
 
         font-size: 2.00rem;
@@ -215,10 +217,7 @@ body {
         width: 66px;
         height: 56px;
     }
-
-
 }
-
 
 
 @media all and (max-width:604px) {
@@ -228,14 +227,14 @@ body {
         box-sizing: border-box;
     }
 .hero{
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;    
     width: 100vw;
     height: 100vh;
-    gap: 10px;
+    gap: 6px;
 }
 
 
@@ -258,9 +257,8 @@ body {
     font-size: 0.835rem;
     line-height: 22px;
     color: rgb(33, 70, 55);
-
 }
-
+    
 .Right-div {
     object-fit: cover;
     width: 72vw;
@@ -272,6 +270,7 @@ body {
     height: 45vh;
     border: none;
 }
+    
 .left-div button {
     width: 150px;
     height: 50px;
@@ -331,9 +330,7 @@ body {
     background-color: #08a8ff;
     font-size: 0.652rem;
     cursor: pointer;
-
-}
-
+    }
 }
 
 
@@ -369,16 +366,28 @@ body {
         transition: all 310ms ease-in-out;
     }
     .left-div button {
-        width: 120px;
-        height: 40px;
+        width: 110px;
+        height: 35px;
         border: none;
         border-radius: 10px;
         color: white;
         background-color: #08a8ff;
-        font-size: 0.650rem;
+        font-size: 0.600rem;
         cursor: pointer;
     
 }
+.left-div>h1 {
+    font-size: 1.3rem;
+    line-height: 40px;
+    color: rgb(40, 37, 37);
 }
+
+.left-div>p {
+    font-size: 0.780rem;
+    }
+}
+
+
+
 
 
