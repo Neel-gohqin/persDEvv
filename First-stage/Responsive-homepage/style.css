@@ -61,7 +61,7 @@ body {
 }
 
 .userBox>button {
-    padding-right: 8px;
+    margin-right: 10px;
     width: 80px;
     height: 40px;
     font-size: 0.782rem;
@@ -74,20 +74,20 @@ body {
 }
 
 .hero {
-    padding-top: 10px;
+    transform: translateY(15%);
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
 .left-div {
     padding: 10px;
     width: 42vw;
-    height: 480px;
+    height: 50vh;
 }
 
 .left-div>h1 {
@@ -107,14 +107,15 @@ body {
 }
 
 .left-div button {
-    width: 190px;
-    height: 55px;
+    width: 180px;
+    height: 52px;
     border: none;
     border-radius: 10px;
     color: white;
     background-color: #08a8ff;
     font-size: 0.813rem;
     cursor: pointer;
+    transition: transform 1s ease-in-out;
 
 }
 
@@ -122,15 +123,19 @@ body {
     background-color: #1cae85;
 }
 
+.left-div button:hover {
+    transform: scale(1.3) rotate(-5deg);
+}
+
 .Right-div {
     width: 42vw;
-    height: 480px;
+    height: 50vh;
     object-fit: cover;
 }
 
 .Right-div>img {
     width: 100%;
-    height: 55vh;
+    height: auto;
     border: none;
 }
 
@@ -157,13 +162,14 @@ body {
     border-radius: 10px;
     width: 30px;
     height: 25px;
-    margin-right: 5px;
+    margin-right: 8px;
     border: 1px solid #ccc;
     display: flex;
     gap: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: var(--transition-hambuerger);
 }
 
 .bars {
@@ -171,6 +177,7 @@ body {
     width: 22px;
     height: 2px;
     background-color: #b1adad;
+    transition: var(--transition-hambuerger);
 }
 
 .mobile-menu {
@@ -194,7 +201,6 @@ body {
 .ham-Menu:hover {
     width: 0;
     opacity: 0;
-    transition: var(--transition-hambuerger);
     overflow: hidden;
 
 }
@@ -214,6 +220,7 @@ body {
     right: 5px;
     border: var(--default-border);
     z-index: 2;
+
 }
 
 
@@ -231,7 +238,6 @@ body {
     }
 
     .hero {
-        margin-top: 30px;
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -242,21 +248,21 @@ body {
 
     .left-div {
         width: 47vw;
-        height: 40vh;
-        padding: 0px 12px;
+        height: auto;
+        padding: 11px;
     }
 
     .left-div>h1 {
         font-size: 1.5rem;
-        line-height: 43px;
+        line-height: 32px;
         color: var(--default-font-color);
     }
 
     .left-div>p {
-        margin: 20px 0px 20px 0px;
+        margin: 22px 0px 10px 0px;
         text-align: left;
         font-weight: bold;
-        font-size: 0.866rem;
+        font-size: 0.796rem;
         line-height: 22px;
         color: var(--default-font-color);
 
@@ -265,13 +271,7 @@ body {
     .Right-div {
         object-fit: cover;
         width: 47vw;
-        height: 40vh;
-    }
-
-    .Right-div>img {
-        width: 100%;
-        height: 50vh;
-        border: none;
+        height: auto;
     }
 
     .rightnavlist>.list-items>li {
@@ -280,8 +280,8 @@ body {
     }
 
     .logoBox>a>img {
-        width: 70px;
-        height: 60px;
+        width: 100%;
+        height: 50px;
         cursor: pointer;
     }
 
@@ -291,18 +291,19 @@ body {
     }
 
     .left-div button {
-        width: 135px;
-        height: 42px;
+        width: 125px;
+        height: 35px;
         border: none;
         border-radius: 10px;
         color: white;
         background-color: #08a8ff;
-        font-size: 0.770rem;
+        font-size: 0.670rem;
         cursor: pointer;
 
     }
 
     .userBox>button {
+        margin-right: 5px;
         width: 50px;
         height: 35px;
         font-size: 0.650rem;
@@ -320,15 +321,15 @@ body {
     }
 
     .hero {
-        margin-top: 40px;
+        transform: translateY(10%);
         display: flex;
         flex-direction: column;
         text-align: center;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         width: 100vw;
         height: 100vh;
-        gap: 12px;
+        gap: 10px;
     }
 
     .list-items>li {
@@ -348,9 +349,8 @@ body {
     }
 
     .left-div>p {
-
-        font-size: 0.725rem;
-        margin: 30px 0px 10px 0px;
+        font-size: 0.700rem;
+        margin: 15px 0px 8px 0px;
         text-align: center;
         font-weight: bold;
         line-height: 22px;
@@ -360,24 +360,24 @@ body {
     .Right-div {
         object-fit: cover;
         width: 70vw;
-        height: 55vh;
+        height: auto;
     }
 
     .left-div button {
         width: 100px;
-        height: 35px;
+        height: 30px;
         border: none;
         border-radius: 10px;
         color: white;
         background-color: #08a8ff;
-        font-size: 0.550rem;
+        font-size: 0.560rem;
         cursor: pointer;
         outline: none;
     }
 
     .userBox>button {
         position: absolute;
-        top: 10px;
+        top: 15px;
         right: 40px;
         width: 42px;
         height: 25px;
