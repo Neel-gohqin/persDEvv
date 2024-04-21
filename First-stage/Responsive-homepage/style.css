@@ -77,7 +77,7 @@ body {
     transform: translateY(15%);
     box-sizing: border-box;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -87,7 +87,7 @@ body {
 .left-div {
     padding: 10px;
     width: 42vw;
-    height: 50vh;
+    height: 70vh;
 }
 
 .left-div>h1 {
@@ -129,14 +129,14 @@ body {
 
 .Right-div {
     width: 42vw;
-    height: 50vh;
-    object-fit: cover;
+    height: auto;
 }
 
-.Right-div>img {
+.Right-div img {
     width: 100%;
     height: auto;
     border: none;
+    display: block;
 }
 
 .droplist {
