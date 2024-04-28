@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>webpage</title>
+    <link rel="stylesheet" href="addon.css">
+
+</head>
+
+<body>
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href='#'><b>WELCOME TO CAMPUS</a></b>
+
+            </div>
+
+
+            <nav>
+                <ul id='MenuItems'>
+
+                    <ul>
+                        <li class="conb"><a href="#">Contact</a>
+
+                            <div class="list">
+                                <ul>
+                                    <li><a href="#"><b>Department</b></a></li>
+                                    <li><a href="#"><b>Branch</b></a></li>
+                                    <li><a href="#"><b>University</b></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <li><a href='page2.html'>About Us</a></li>
+
+                   
+
+
+                    <li><button type="button" class='loginbtn' onclick="document.getElementById('login-form').style.display='block'"
+                            style="width:auto;">Login</button></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id='login-form' class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button' onclick='login()' class='toggle-btn'>Log In</button>
+                    <button type='button' onclick='register()' class='toggle-btn'>Register</button>
+                </div>
+
+                <!--<a href="#"><button type="reset" class="close" >&times;</button></a>-->
+
+
+                <form id='login' class='input-group-login'>
+
+                    <input type="text" class='input-field' placeholder='Email Id' required>
+                    <input type='password' class='input-field' placeholder='Enter Password' required>
+                    <input type='checkbox' class='check-box'><span>Remember Password</span>
+                    <button type='submit' class='submit-btn'>Log in</button>
+
+                </form>
+            
+
+
+
+                <form id='register' class='input-group-register'>
+                    <input type='text' class='input-field' placeholder="First Name " required>
+                    <input type='text' class='input-field' placeholder="Last Name " required>
+                    <input type='email' class='input-field' placeholder='Email Id' required>
+                    <input type='password' class='input-field' placeholder='Enter Password' required>
+                    <input type='password' class='input-field' placeholder='Confirm Password' required>
+                    <input type='checkbox' class='check-box'><span>I agree to the terms and conditions</span>
+                    <button type='submit' class='submit-btn' name="b2">Register</button>
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+        <div>
+            <h2><br>
+                <ul>
+                    <li> we provide best facilities </li>
+                </ul><br>
+
+                <ul>
+                    <li>Best Technology</li>
+                </ul><br>
+
+                <ul>
+                    <li>Best Teachers</li>
+                </ul><br>
+
+                <ul>
+                    <li>Much Activities</li>
+                </ul>
+            </h2>
+
+            <div class="texter">
+
+                <p>
+                    A campus is traditionally the land on which a college or university and related institutional
+                    buildings are situated.
+                    Usually a college campus includes libraries, lecture halls,
+
+                    student centers or dining halls, and park-like settings.
+
+                    synonyms: college student. types:
+                    matriculate.someone who has been admitted to a college or university.</p> <br>
+                A campus university is a British term for a university situated on one site, with student accommodation,
+                teaching and research facilities, and leisure activities all together. Undergraduates are students of
+                universities and colleges: they've graduated from high school and have been accepted to college,
+                but they haven't graduated yet. <br>
+                <br>
+                <p>
+                    From Middle English, "institution of higher learning," "body of persons constituting a university,"
+                    from Anglo-Norman université, from Old French universitei, from Medieval Latin stem of universitas,
+                    in juridical and Late Latin "A number of persons associated into one body, a society, company,
+                    community, guild,
+                    corporation, etc.," in Latin, "
+                    the whole, aggregate," from universus (“whole, entire")
+                </p>
+            </div>
+        </div>
+
+        <div class="iconmenu">
+
+            <a href="#"><img src="icon1.png" class="ic1"></a>
+            <a href="#"><img src="icon2.png" class="ic2"></a>
+            <a href="#"><img src="icon3.png" class="ic3"></a>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var x = document.getElementById('login');
+        var y = document.getElementById('register');
+        var z = document.getElementById('btn');
+        function register() {
+            x.style.left = '-400px';
+            y.style.left = '50px';
+            z.style.left = '110px';
+        }
+        function login() {
+            x.style.left = '50px';
+            y.style.left = '450px';
+            z.style.left = '0px';
+        }
+    </script>
+    <script>
+        var modal = document.getElementById('login-form');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
