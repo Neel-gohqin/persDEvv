@@ -54,7 +54,7 @@ def wishMe():
         Ui_JARViss.terminalprint("Good Evening!")
         speak("Good Evening!")
 
-    speak("I am Jarvis Sir. please tell me how may I help you")
+        speak("I am Jarvis Sir. please tell me how may I help you")
 
 def WolframAlpha(Final):
         apikey = "VUKQVR-97LWXQEPY5"
