@@ -19,9 +19,8 @@
 
 body {
     font-family: Poppins, Roboto;
-
     overflow-x: hidden;
-
+    box-sizing: border-box;
 }
 
 .navBox {
@@ -39,86 +38,145 @@ body {
     gap: 45px;
 }
 
-.rightnavlist>.list-items li {
-    
-    list-style: none;
-    font-size: 1.05rem;
-}
-
-.rightnavlist a {  
-    --links-color: rgb(84, 82, 82);
-    text-decoration: none;
-    color: var(--links-color);
-}
-.logoBox>a {
-    text-decoration: none;
-    color: var(--links-color);
-    font-size: 1.15rem;
-
-}
-.logoBox h3{
-    color: rgb(255 135 5);
-}
-.logoBox a span{
-    color: rgb(5 55 250);
-}
 .list-items :hover {
     color: rgb(25, 107, 166);
     cursor: pointer;
 }
-/*
 
-.srchBar{    
-    width: 122px;
-    height: 34px;
-    border-radius: 8px;
-    border: 1px solid #b1adad;
-    outline: none;
+.rightnavlist>.list-items li {
+    list-style: none;
+    font-size: 1.05rem;
 }
 
-.srchBar> input{
-    position: absolute;
-    right: 18.6rem;
-    width: 80px;
-    height: 30px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    padding: 5px 0px 5px 6px;
-    color: #b1adad;
+.rightnavlist a {
+    --links-color: rgb(84, 82, 82);
+    text-decoration: none;
+    color: var(--links-color);
+}
+
+
+.logoBox>a {
+    text-decoration: none;
+    color: var(--links-color);
+    font-size: 1.15rem;
+}
+
+.logoBox h3 {
+    color: rgb(255 135 5);
+}
+
+.logoBox a span {
+    color: rgb(5 55 250);
+}
+
+.hero {
+    display: flex;
     text-align: center;
+    width: 100vw;
+    height: auto;
+    gap: 10px;
 }
 
-.srchBar > .glass{
-    width:0.75rem;
-    height: 0.75rem;
-    border: 1.4px solid #7d7b7b;
-    border-radius: 50%;
-    position: absolute;
-    top: 24px;
-    right: 384px;
+.left-div {
+    border: 1px solid #000;
+    width: 60vw;
+    height: 70vh;
 }
 
-.glass::before{
-    position: absolute;
-    content: "";
-    width:0.40rem;
-    height: 0rem;
-    border: 1px solid #a4a0a0;
-    top: 100%;
-    left: 75%;
-    transform: rotate(45deg);
-    border-radius: 20px; 
-
+.right-div {
+    border: 1px solid #000;
+    width: 60vw;
+    height: 70vh;
+    background-color: aqua;
 }
 
-.srchBar > input::placeholder{
-    content: "ewe";
-    color: #b1adad;
+.icon-div-left {
+    transform: translate(55px, 140px);
+    width: 10vw;
+    height: auto;
+}
+
+.bannerDesc {
+    transform: translate(70px, 150px);
+    width: 30vw;
+    height: auto;
+}
+
+.bannerDesc>h1 {
+    width: 20vw;
+    height: auto;
+    font-size: 2.3rem;
+    line-height: 36px;
     text-align: left;
-} */
+    white-space: wrap;
+}
 
+.bannerDesc p {
+    font-size: 0.900rem;
+    text-align: left;
+    white-space: wrap;
+    margin: 12px 0px;
 
+}
+
+.left-div button {
+    transform: translate(-175px, 155px);
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #272727;
+    font-size: 0.850rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.left-div button:active {
+    background-color: #000000;
+}
+
+.Outmain_lowSec {
+    width: 100%;
+    display: flex;
+    height: 19vh;
+    background-color: rgb(255 135 5);
+}
+
+.ovrvwSec {
+    justify-content: center;
+    align-items: center;
+    white-space: wrap;
+    display: flex;
+    width: 25vw;
+    height: 116px;
+    white-space: wrap;
+    color: white;
+}
+
+.ovrvwSec-Dsgn>.rvwimagebox {
+    width: auto;
+    height: auto;
+    padding-right: 10px;
+}
+
+.ovrvwSec-Dsgn>.rvwimagebox>img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.ovrvwSec span {
+    transform: translateY(-10px);
+    font-weight: 250;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.ovrvwSec h1 {
+    font-weight: 450;
+    font-size: 1.6rem;
+}
 
 .userBox>button {
     transition: 0.7s;
@@ -133,36 +191,6 @@ body {
     color: rgb(12, 114, 20);
     cursor: pointer;
 }
-
-
-
-
-
-/* .left-div button {
-    width: 180px;
-    height: 52px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    background-color: #08a8ff;
-    font-size: 0.813rem;
-    cursor: pointer;
-    transition: transform 1s ease-in-out;
-
-}
-
-.left-div button:active {
-    background-color: #1cae85;
-}
-
-.left-div button:hover {
-    transform: scale(1.3) rotate(-5deg);
-} */
-
-
-
-
-
 
 .droplist {
     display: none;
@@ -207,7 +235,6 @@ body {
 
 .mobile-menu {
     display: none;
-
 }
 
 .innermenu {
@@ -251,7 +278,42 @@ body {
 
 
 
-@media screen and (min-width:481px) and (max-width:769px) {
+
+
+
+/*
+
+.srchBar{    
+    width: 122px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid #b1adad;
+    outline: none;
+}
+
+.srchBar> input{
+    position: absolute;
+    right: 18.6rem;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 5px 0px 5px 6px;
+    color: #b1adad;
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width:481px) and (max-width:769px) {
     * {
         margin: 0;
         padding: 0;
@@ -262,8 +324,6 @@ body {
         display: flex;
         gap: 15px;
     }
-
-
 
 
     .rightnavlist>.list-items>li {
@@ -290,7 +350,6 @@ body {
 }
 
 
-
 @media screen and (max-width:481px) {
     * {
         margin: 0;
@@ -310,7 +369,7 @@ body {
         gap: 10px;
     }
 
-   
+
     .list-items>li {
         transition: all 2s ease;
         display: none;
@@ -347,4 +406,4 @@ body {
         height: 35px;
     }
 
-}
+} */
