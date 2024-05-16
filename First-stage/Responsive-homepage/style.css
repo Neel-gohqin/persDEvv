@@ -91,7 +91,7 @@ body {
 }
 
 .icon-div-left {
-    transform: translate(55px, 140px);
+    transform: translate(60px, 140px);
     width: 10vw;
     height: auto;
 }
@@ -105,7 +105,7 @@ body {
 .bannerDesc>h1 {
     width: 20vw;
     height: auto;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     line-height: 36px;
     text-align: left;
     white-space: wrap;
@@ -120,7 +120,7 @@ body {
 }
 
 .left-div button {
-    transform: translate(-175px, 155px);
+    transform: translate(-140px, 155px);
     width: 140px;
     height: 45px;
     border: none;
@@ -139,11 +139,12 @@ body {
 .Outmain_lowSec {
     width: 100%;
     display: flex;
-    height: 19vh;
+    height: auto;
     background-color: rgb(255 135 5);
 }
 
 .ovrvwSec {
+    
     justify-content: center;
     align-items: center;
     white-space: wrap;
