@@ -87,7 +87,6 @@ body {
     border: 1px solid #000;
     width: 60vw;
     height: 70vh;
-    background-color: aqua;
 }
 
 .icon-div-left {
@@ -313,43 +312,212 @@ body {
 
 
 
+/* 
+ @media screen and (min-width:1440px) {
 
-/* @media screen and (min-width:481px) and (max-width:769px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+.navBox {
+    width: 100%;
+    margin-top: 22px;
+    padding: 0.700rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
-    .rightnavlist>.list-items {
-        display: flex;
-        gap: 15px;
-    }
-
-
-    .rightnavlist>.list-items>li {
-        list-style: none;
-        font-size: 0.900rem;
-    }
-
-    .logoBox>a>img {
-        width: 100%;
-        height: 50px;
-        cursor: pointer;
-    }
-
-
-
-    .userBox>button {
-        margin-right: 5px;
-        width: 50px;
-        height: 35px;
-        font-size: 0.650rem;
-        transition: 0.7s;
-
-    }
 }
 
+.rightnavlist>.list-items {
+    display: flex;
+    gap: 55px;
+}
+
+.list-items :hover {
+    color: rgb(25, 107, 166);
+    cursor: pointer;
+}
+
+.rightnavlist>.list-items li {
+    list-style: none;
+    font-size: 1.40rem;
+}
+
+.rightnavlist a {
+    --links-color: rgb(84, 82, 82);
+    text-decoration: none;
+    color: var(--links-color);
+}
+
+
+.logoBox>a {
+    text-decoration: none;
+    color: var(--links-color);
+    font-size: 1.50rem;
+}
+
+.logoBox h3 {
+    color: rgb(255 135 5);
+}
+
+.logoBox a span {
+    color: rgb(5 55 250);
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    gap: 10px;
+}
+
+.left-div {
+    border: 1px solid #000;
+    width: 60vw;
+    height: 72vh;
+    
+}
+
+.right-div {
+    border: 1px solid #000;
+    width: 60vw;
+    height: 72vh;
+}
+.right-div > .land-Shoe  img{
+    transform: rotate(18deg);
+    border: 1px solid black;
+}
+.icon-div-left {
+    transform: translate(70px, 140px);
+    width: 10vw;
+    border: 1px solid black;
+    height: auto;
+}
+.icon-div-left > img{
+    width: 150px;
+    height: 50px;
+}
+
+.bannerDesc {
+    transform: translate(70px, 150px);
+    width: 30vw;
+    border: 1px solid black;
+    height: auto;
+}
+
+.bannerDesc>h1 {
+    width: 30vw;
+    height: auto;
+    font-size: 4rem;
+    line-height: 80px;
+    text-align: left;
+    white-space: wrap;
+}
+
+.bannerDesc p {
+    font-size: 1.80rem;
+    text-align: left;
+    white-space: wrap;
+    margin: 12px 0px;
+
+}
+
+.left-div button {
+    transform: translate(-260px, 155px);
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #272727;
+    font-size: 0.900rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.left-div button:active {
+    background-color: #000000;
+}
+
+.Outmain_lowSec {
+    width: 100%;
+    display: flex;
+    height: auto;
+    background-color: rgb(255 135 5);
+}
+
+.ovrvwSec {
+    
+    justify-content: center;
+    align-items: center;
+    white-space: wrap;
+    display: flex;
+    width: 25vw;
+    height: 148px;
+    white-space: wrap;
+    color: white;
+}
+
+.ovrvwSec-Dsgn>.rvwimagebox {
+    width: auto;
+    height: auto;
+    padding-right: 10px;
+}
+
+.ovrvwSec-Dsgn>.rvwimagebox>img {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.ovrvwSec span {
+    transform: translateY(-10px);
+    font-weight: 250;
+    font-size: 1.4rem;
+    display: inline-block;
+}
+
+.ovrvwSec h1 {
+    font-weight: 450;
+    font-size: 1.6rem;
+}
+
+.userBox>button {
+    transition: 0.7s;
+    margin-right: 10px;
+    width: 54px;
+    height: 54px;
+    font-size: 0.784rem;
+    font-weight: bolder;
+    background-color: rgba(141, 203, 167, 0.479);
+    border-radius: 50%;
+    border: none;
+    color: rgb(12, 114, 20);
+    cursor: pointer;
+}
+
+.droplist {
+    display: none;
+    font-size: 0.820rem;
+    list-style: none;
+    position: absolute;
+    padding-left: 15px;
+    width: 100px;
+    height: 58px;
+}
+
+.list-items li:nth-child(1):hover .droplist {
+    list-style: none;
+    display: block;
+    color: #eee;
+    margin-top: -1px;
+}   
+} */
+
+
+
+
+
+
+/*
 
 @media screen and (max-width:481px) {
     * {
