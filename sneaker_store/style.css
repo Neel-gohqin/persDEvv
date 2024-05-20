@@ -20,8 +20,8 @@ body {
   font-family: Poppins, Roboto;
   overflow-x: hidden;
   box-sizing: border-box;
-  background: rgb(250,161,78);
-background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.028435886073179262) 80%);
+  background: rgb(250, 161, 78);
+  background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253, 135, 45, 0.028435886073179262) 75%);
 }
 
 
@@ -35,7 +35,7 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   align-items: center;
 }
 
-.rightnavlist > .list-items {
+.rightnavlist>.list-items {
   display: flex;
   gap: 45px;
 }
@@ -45,7 +45,7 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   cursor: pointer;
 }
 
-.rightnavlist > .list-items li {
+.rightnavlist>.list-items li {
   list-style: none;
   font-size: 1.1rem;
 }
@@ -56,7 +56,7 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   color: var(--links-color);
 }
 
-.logoBox > a {
+.logoBox>a {
   text-decoration: none;
   color: var(--links-color);
   font-size: 1.2rem;
@@ -73,7 +73,8 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   justify-content: center;
   align-items: center;
 }
-.rightbx22  .btn-search{
+
+.rightbx22 .btn-search {
   outline: none;
   border: none;
   background-color: white;
@@ -82,6 +83,7 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   justify-content: center;
   align-items: center;
 }
+
 .srchBar {
   padding: 2px;
   width: 140px;
@@ -96,7 +98,7 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   gap: 2px;
 }
 
-.srchBar > input {
+.srchBar>input {
   width: 100%;
   height: 100%;
   border-radius: 8px;
@@ -107,17 +109,18 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   font-size: 0.84rem;
 }
 
-.srchBar > input::placeholder {
+.srchBar>input::placeholder {
   color: #b1adad;
   font-size: 0.8rem;
   text-align: left;
 }
 
-.srchBar >svg{
+.srchBar>svg {
   color: #b1adad;
   cursor: pointer;
 
 }
+
 .cartBox {
   width: 62px;
   height: 38px;
@@ -133,14 +136,14 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   color: #c9c6c6;
 }
 
-.userBox  button {
+.userBox button {
   transition: 0.7s;
   margin-right: 10px;
   width: 40px;
   height: 40px;
   font-size: 0.582rem;
   font-weight: bolder;
-  background-color: rgba(141, 203, 167, 0.479);
+  background-color: rgba(247, 176, 53, 0.479);
   border-radius: 50%;
   border: none;
   color: rgb(12, 114, 20);
@@ -166,7 +169,7 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   overflow: hidden;
 }
 
-.right-div > .land-Shoe img {
+.right-div>.land-Shoe img {
   transform: rotate(24deg) translate(-50px, -50px);
   width: 640px;
   height: 640px;
@@ -178,7 +181,7 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   height: auto;
 }
 
-.bannerDesc > h1 {
+.bannerDesc>h1 {
   width: 22vw;
   height: auto;
   font-size: 2.6rem;
@@ -235,13 +238,13 @@ background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.02843
   color: white;
 }
 
-.ovrvwSec-Dsgn > .rvwimagebox {
+.ovrvwSec-Dsgn>.rvwimagebox {
   width: auto;
   height: auto;
   padding-right: 10px;
 }
 
-.ovrvwSec-Dsgn > .rvwimagebox > img {
+.ovrvwSec-Dsgn>.rvwimagebox>img {
   width: 50px;
   height: 50px;
   margin-left: 20px;
