@@ -1,6 +1,6 @@
 An advance Desktop application to automate our daily task through voice command.
 Features:
-        1.Fullcontrol on device
+        1.Fullcontrol on device \n
         2.control chrome/browser
         3.opening application and controling
         4.Access Mobile and sending message/calling 
