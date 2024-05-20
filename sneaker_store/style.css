@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   background: rgb(250,161,78);
-background: linear-gradient(0deg, rgba(250,161,78,1) 0%, rgba(253,135,45,0.028435886073179262) 89%);
+background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253,135,45,0.028435886073179262) 80%);
 }
 
 
@@ -133,7 +133,7 @@ background: linear-gradient(0deg, rgba(250,161,78,1) 0%, rgba(253,135,45,0.02843
   color: #c9c6c6;
 }
 
-.userBox > button {
+.userBox  button {
   transition: 0.7s;
   margin-right: 10px;
   width: 40px;
