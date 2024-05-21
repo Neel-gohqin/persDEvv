@@ -9,7 +9,7 @@
 :root {
   --default-font: Poppins, Roboto;
   --default-border: 1px solid black;
-  --main-color: green;
+  --main-color: rgb(255 135 5);
   --secondry-color: red;
   --links-color: black;
   --default-font-color: rgb(40, 37, 37);
@@ -20,6 +20,8 @@ body {
   font-family: Poppins, Roboto;
   overflow-x: hidden;
   box-sizing: border-box;
+  background: rgb(250, 161, 78);
+  background: linear-gradient(0deg, rgb(238, 203, 170) 5%, rgba(253, 125, 15, 0.028435886073179262) 20%);
 }
 
 
@@ -29,7 +31,7 @@ body {
   margin-top: 16px;
   padding: 0.2rem 0rem 0rem 0rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -147,9 +149,107 @@ body {
 
 
 
+.current-stage{
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  margin-left: 75px;
+  margin-top: 40px;
+  font-family: Poppins,Roboto;
+  --links-color: rgb(84, 82, 82);
+  color:   var(--links-color);
+} 
+.current-stage > .arrw-curentSec{
+  padding: 0px 5px;
+font-size: 1rem;
+}
 
+.hero{
+  padding-top: 22px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+}
 
+.sec-frst{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 0px 70px;
+  width: auto;
+  height: auto;
+}
 
+.left-div-contain img{
+  width: 460px;
+  height: 440px; 
+  background-color: #f5f5f5;
+  border-radius: 8px;
+
+}
+.right-div-contain .description-shoe{
+  width: 550px;
+  height: auto;
+}
+.description-shoe > h1{
+  font-size: 2.4rem;
+  line-height: 50px;
+  font-weight: 600;
+}
+.description-shoe >p{
+  padding-top: 11px;
+  font-size: 0.900rem;
+  line-height: 1.5rem;
+}
+.price-tax-secMain{
+  display: flex;
+  width: auto;
+  height: 60px; 
+  padding: 16px 0px 0px 12px;
+  display: inline-block;
+
+}
+.price-secwdTax .prdct-price{
+  width: 145px;
+  height: 60px;
+  border: 1px solid #c9c6c6;
+  font-size: 2.3rem;
+  border-radius: 10px;
+  padding: 4px 8px;
+  font-weight: 500;
+}
+.price-secwdTax h3{
+
+  color: rgb(160, 197, 104);
+}
+
+.qntty_cart{
+  margin-top: 35px;
+  display: flex;
+  gap: 18px;
+}
+.qntty_cart > .quentity{
+  display: inline-block;
+  width: 65px;
+  height: 60px;
+  border-radius:10px ;
+  text-align: center;
+  padding: 13px;
+  font-size: 1.3rem;
+  border: 1px solid #c9c6c6;
+}
+
+.qntty_cart >.add-cart-buy{
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border-radius:10px;
+padding-top: 16px;
+  font-size: 1rem;
+  border: 1px solid #c9c6c6;
+}
 .droplist {
     display: none;
     font-size: 0.82rem;
