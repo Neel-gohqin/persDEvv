@@ -244,6 +244,7 @@ body {
   padding: 20px 0px 0px 18px;
   border-radius: 16px;
   border: 1px solid #d1cfcf;
+  outline: none;
 }
 
 .right-div-sec .right-div-inner-card p {

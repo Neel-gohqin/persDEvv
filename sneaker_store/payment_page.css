@@ -23,24 +23,210 @@ body {
 }
 
 .hero-cart {
-    width: 100%;
-    height: 613px;
-    display: flex;
-    padding-top: 10px;
-    justify-content: space-around;
-    border: 1px solid #000;
-  }
-  
-  .left-div-sec {
-    border: 1px solid #000;
-    width: 600px;
-    height: auto;
-  }
+  width: 100%;
+  height: 613px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #000;
+}
 
-  
+.left-div-sec {
+  border: 1px solid #000;
+  width: 600px;
+  height: auto;
+  padding: 10px 40px 0px 40px;
+}
+
+.left-div-sec>span {
+  font-size: 0.920rem;
+  font-weight: 450;
+  color: silver;
+  position: relative;
+  top: 28px;
+}
+
+.left-div-sec h1 {
+  transform: translateY(80px);
+  font-size: 1.5rem;
+  font-weight: 520;
+}
+
+.usr-inpt-mail {
+  transform: translateY(52px);
+}
+
+.usr-inpt-mail>h2 {
+  padding: 12px 0px;
+  font-weight: 520;
+}
+
+.usr-inpt-mail>input {
+  outline: none;
+  width: 100%;
+  height: 52px;
+  padding: 0px 5px;
+  text-align: left;
+  border-radius: 10px;
+  border: 1px solid #bebbbb;
+  background-color: #f5f5f5;
+}
+
+.usr-inpt-mail>label {
+  position: relative;
+  bottom: 3px;
+}
+
+.pymt-bx {
+  border: 1px solid #000;
+  width: auto;
+  transform: translateY(92px);
+  height: 300px;
+  border-radius: 10px;
+}
+
 .right-div-sec {
-    border: 1px solid #000;
-    width: 600px;
-    height: auto;
-    background-color: rgb(236, 236, 236);
-  }
+  border: 1px solid #000;
+  width: 600px;
+  height: auto;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-div-sec>h1 {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.cntnt {
+  width: 430px;
+  height: auto;
+}
+
+.right-div-sec .sec-frst {
+  width: 100%;
+  height: 410px;
+  border-radius: 18px;
+}
+
+.right-div-sec .right-div-inner-card {
+  width: 100%;
+  height: 270px;
+  padding: 20px 0px 0px 0px;
+  border-radius: 16px;
+  background-color: white;
+  border: 1px solid #d1cfcf;
+}
+
+.right-div-sec .right-div-inner-card p {
+  font-size: 0.820rem;
+  transform: translateX(30px);
+}
+
+.cupn-redeme {
+  display: flex;
+  gap: 20px;
+  padding: 6px 0px 22px 0px;
+  justify-content: center;  
+}
+
+.cupn-redeme input {
+  text-align: left;
+  padding: 0px 6px 0px 8px;
+  width: 240px;
+  height: 52px;
+  border-radius: 10px;
+  border: 1px solid #d1cfcf;
+  outline: none;
+}
+
+.cupn-redeme input::placeholder {
+  color: #bababa;
+  font-size: 0.800rem;
+}
+
+.cupn-redeme button {
+  background-color: #2378ff;
+  color: white;
+  text-align: center;
+  padding: 0px 6px;
+  width: 120px;
+  height: 52px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cupn-redeme button:hover {
+  background-color: #0c65f4;
+
+}
+.pymnt-sec{
+  display: flex;
+  justify-content: center;
+}
+.pymnt-sec .pscf td:first-child {
+  padding-bottom: 12px;
+  padding-right: 170px;
+  color: #9e9c9c;
+  font-weight: 480;
+  font-size: 0.920rem;
+}
+
+.pymnt-sec .pscf td:nth-child(2) {
+  font-size: 0.900rem;
+  text-align: right;
+  color: #9e9c9c;
+  font-weight: 480;
+  padding-bottom: 12px;
+}
+
+.total-priceSec>.Pcd1 {
+  font-weight: 480
+}
+
+.total-priceSec>.Pcd2 {
+  color: black;
+  font-weight: 550;
+  font-size: 0.995rem;
+}
+
+.lastsecpay {
+  padding-top: 22px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+
+.lastsecpay button {
+  width: 100%;
+  height: 60px;
+  color: white;
+  background-color: #fc9d39;
+  font-size: 1rem;
+  font-weight: 550;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.lastsecpay button:hover {
+  background-color: #e99132;
+  background: linear-gradient(#fe9f37 top white);
+}
+
+.lastsecpay button:active {
+  background-color: #ee7d04;
+}
+
+.lastsecpay .pay-prtnsr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
