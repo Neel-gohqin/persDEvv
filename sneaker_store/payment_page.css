@@ -24,39 +24,37 @@ body {
 
 .hero-cart {
   width: 100%;
-  height: 613px;
+  height: 623px;
   display: flex;
-  justify-content: space-around;
-  border: 1px solid #000;
+  justify-content: center;
 }
 
 .left-div-sec {
-  border: 1px solid #000;
-  width: 600px;
-  height: auto;
+  width: 50%;
+  height: 100%;
   padding: 10px 40px 0px 40px;
 }
 
 .left-div-sec>span {
-  font-size: 0.920rem;
+  font-size: 1rem;
   font-weight: 450;
   color: silver;
   position: relative;
-  top: 28px;
+  top: 12px;
 }
 
 .left-div-sec h1 {
-  transform: translateY(80px);
+  transform: translateY(38px);
   font-size: 1.5rem;
   font-weight: 520;
 }
 
 .usr-inpt-mail {
-  transform: translateY(52px);
+  transform: translateY(20px);
 }
 
 .usr-inpt-mail>h2 {
-  padding: 12px 0px;
+  padding: 9px 0px;
   font-weight: 520;
 }
 
@@ -77,16 +75,83 @@ body {
 }
 
 .pymt-bx {
+  padding: 10px 20px 0px 20px;
   border: 1px solid #000;
   width: auto;
-  transform: translateY(92px);
-  height: 300px;
+  height: 370px;
+  transform: translateY(48px);
   border-radius: 10px;
 }
 
+.tpe-pay {
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.tpe-pay>.pyBx {
+  width: 120px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 12px;
+  border-radius: 10px;
+  border: 1px solid #fc9d39;
+  color: #fc9d39;
+  font-size: 1.1rem;
+  font-weight: 420;
+}
+
+/* .pyBx>img {
+
+  color: #e99132;
+
+} */
+
+/* .pyBxLast{
+} */
+.lstseCtc {
+  width: 100%;
+  height: auto;
+  padding-top: 18px;
+  display: grid;
+  column-gap: 22px;
+  row-gap: 15px;
+  grid-template-columns: 50% 45%;
+  grid-template-rows: 68px 68px 68px;
+}
+
+.lstseCtc input {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 0px 10px;
+  height: 52px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #a29f9f;
+  outline: none;
+}
+
+.inBox1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-internal-autofill-selected {
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+
 .right-div-sec {
-  border: 1px solid #000;
-  width: 600px;
+  width: 50%;
   height: auto;
   background-color: rgb(236, 236, 236);
   display: flex;
@@ -129,7 +194,7 @@ body {
   display: flex;
   gap: 20px;
   padding: 6px 0px 22px 0px;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .cupn-redeme input {
@@ -164,10 +229,12 @@ body {
   background-color: #0c65f4;
 
 }
-.pymnt-sec{
+
+.pymnt-sec {
   display: flex;
   justify-content: center;
 }
+
 .pymnt-sec .pscf td:first-child {
   padding-bottom: 12px;
   padding-right: 170px;

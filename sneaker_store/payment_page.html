@@ -1,111 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thala 7 || Seven by Ms Dhoni || Thala 7.</title>
-    <link rel="stylesheet" href="payment_page.css" />
-  </head>
 
-  <body id="Landing-home-prdct">
-<!-- Main-Content -->
-    <main id="main-content">
-        <div class="hero-cart">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thala 7 || Seven by Ms Dhoni || Thala 7.</title>
+  <link rel="stylesheet" href="payment_page.css" />
+</head>
+
+<body id="Landing-home-prdct">
+  <!-- Main-Content -->
+  <main id="main-content">
+    <div class="hero-cart">
 
 
-          <div class="left-div-sec">
-            <span>Checkout</span>
-            
-            <div class="usr-inpt-mail">
-              <h2>Contact Details</h2> 
-              
-              <label for="npt">Email ID</label>
-              <input type="email" name="" id="npt" placeholder="abc@nmail.com" required>
-            </div>
+      <div class="left-div-sec">
+        <span>Checkout</span>
 
-            <h1>
-              Payment
-            </h1>
+        <div class="usr-inpt-mail">
+          <h2>Contact Details</h2>
 
-            <div class="pymt-bx">
-
-              <div class="tpe-pay">
-                <div class="pyBx pybxB"></div>
-                <div class="pyBx pybxB"></div>
-                <div class="pyBx pybxB"></div>
-                <div class="pyBx pybxB"></div>
-              </div>
-
-              <div class="lstseCtc">
-                
-              </div>
-
-            </div>
-
-          </div>
-          
-          
-          <div class="right-div-sec">
-            <h1>Order Summery</h1>
-            <div class="cntnt">
-            <div class="sec-frst">
-              <div class="right-div-inner-card">
-                <p>Enter Coupon Code</p>
-    
-                <div class="cupn-redeme">
-                  <input type="text" name="cupon-rdme" placeholder="COUPON CODE" />
-                  <a href="#22">
-                    <button type="button">Apply Coupon</button>
-                  </a>
-                </div>
-    
-                <div class="pymnt-sec">
-                  <table>
-                    <tr class="pscf">
-                      <td>Sub Total</td>
-                      <td>$345.00</td>
-                    </tr>
-    
-                    <tr class="pscf">
-                      <td>Taxes(if applicable)</td>
-                      <td>$50.00</td>
-                    </tr>
-    
-                    <tr class="pscf">
-                      <td>Discount</td>
-                      <td>$00.00</td>
-                    </tr>
-    
-                    <tr class="total-priceSec">
-                      <td class="Pcd1">Total</td>
-                      <td class="Pcd2">$345.00</td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-    
-              <div class="lastsecpay">
-                <a href="payment_page.html"><button type="button">Pay Now $345</button></a>
-                <div class="pay-prtnsr">
-                  <a href="#99">
-                    <img src="assets/secure-ssl-encryption.png" alt=" payment image" title="payment image" width="90"
-                      height="82" />
-                  </a>
-    
-                  <a href="#94">
-                    <img src="assets/razorpayLogo.png" alt=" payment image" title="payment image" width="85" height="22" />
-                  </a>
-    
-                  <a href="#23">
-                    <img src="assets/secure-payment.png" alt=" payment image" title="payment image" width="100"
-                      height="50" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-            
-           
+          <label for="npt">Email ID</label>
+          <input type="email" name="" id="npt" placeholder="abc@nmail.com" required>
         </div>
-          </main>
+
+        <h1>
+          Payment
+        </h1>
+
+        <div class="pymt-bx">
+          <div class="tpe-pay">
+            <div class="pyBx pybxB">
+              <img src="assets/credit_crd_icon.png" alt="credit-cart-icon" title="card.jpg" width="30" height="30">
+              <span>Card</span>
+            </div>
+            <div class="pyBx pybxB">
+              <img src="assets/currency_btcoin_icon.png" alt="bitcoin-icon" title="bitcoin.jp" width="30" height="30">
+              <span>Bitcoin</span>
+            </div>
+            <div class="pyBx pybxB">
+              <img src="assets/account_blnc_icon.png" alt="bitcoin-icon" title="bitcoin.jp" width="30" height="30">
+              <span>Bank</span>
+            </div>
+            <div class="pyBx pybxB pyBxLast">
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+
+
+          <div class="lstseCtc">
+            <div class="inBox inBox1">
+              <label for="cd-nmbr">Card Number</label>
+              <input type="text" name="cdNmbr" id="cd-nmbr" placeholder="Card Number" required>
+            </div>
+
+            <div class="inBox inBox2">
+              <label for="Expiry">Expiry</label>
+              <input type="text" name="expiry" id="Expiry" placeholder="MM/YY" required>
+            </div>
+
+            <div class="inBox inBox3">
+              <label for="cvc">CVC</label>
+              <input type="text" name="cVcNmbr" id="cvc" placeholder="" required>
+            </div>
+
+            <div class="inBox inBox4">
+              <label for="cntry">Country</label>
+              <input type="text" name="country" id="cntry" placeholder="India">
+            </div>
+
+            <div class="inBox inBox5">
+              <label for="Zpnmbr">ZIP</label>
+              <input type="text" name="zipnmbr" id="Zpnmbr" placeholder="XXXXX" required>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="right-div-sec">
+        <h1>Order Summery</h1>
+        <div class="cntnt">
+          <div class="sec-frst">
+            <div class="right-div-inner-card">
+              <p>Enter Coupon Code</p>
+
+              <div class="cupn-redeme">
+                <input type="text" name="cupon-rdme" placeholder="COUPON CODE" />
+                <a href="#22">
+                  <button type="button">Apply Coupon</button>
+                </a>
+              </div>
+
+              <div class="pymnt-sec">
+                <table>
+                  <tr class="pscf">
+                    <td>Sub Total</td>
+                    <td>$345.00</td>
+                  </tr>
+
+                  <tr class="pscf">
+                    <td>Taxes(if applicable)</td>
+                    <td>$50.00</td>
+                  </tr>
+
+                  <tr class="pscf">
+                    <td>Discount</td>
+                    <td>$00.00</td>
+                  </tr>
+
+                  <tr class="total-priceSec">
+                    <td class="Pcd1">Total</td>
+                    <td class="Pcd2">$345.00</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="lastsecpay">
+              <a href="payment_page.html"><button type="button">Pay Now $345</button></a>
+              <div class="pay-prtnsr">
+                <a href="#99">
+                  <img src="assets/secure-ssl-encryption.png" alt=" payment image" title="payment image" width="90"
+                    height="82" />
+                </a>
+
+                <a href="#94">
+                  <img src="assets/razorpayLogo.png" alt=" payment image" title="payment image" width="85"
+                    height="22" />
+                </a>
+
+                <a href="#23">
+                  <img src="assets/secure-payment.png" alt=" payment image" title="payment image" width="100"
+                    height="50" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
