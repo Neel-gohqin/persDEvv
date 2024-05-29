@@ -306,13 +306,14 @@ body {
 }
 
 .total-priceSec>.Pcd1 {
-  font-weight: 480
+  font-weight: 480;
+  font-size: 1.1rem;
 }
 
 .total-priceSec>.Pcd2 {
-  color: black;
   font-weight: 550;
-  font-size: 0.995rem;
+  color: black;
+  font-size: 1.1rem;
 }
 
 .lastsecpay {
@@ -328,7 +329,7 @@ body {
   height: 60px;
   color: white;
   background-color: #fc9d39;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 550;
   border: none;
   border-radius: 16px;

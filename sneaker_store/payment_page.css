@@ -173,7 +173,7 @@ input:-internal-autofill-selected {
 .right-div-sec {
   width: 50%;
   height: auto;
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(238, 235, 235);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -295,7 +295,7 @@ input:-internal-autofill-selected {
   height: 60px;
   color: white;
   background-color: #fc9d39;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 550;
   border: none;
   border-radius: 16px;

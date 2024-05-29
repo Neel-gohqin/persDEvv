@@ -299,6 +299,7 @@ body {
   border-radius: 8px;
   object-fit: cover;
   cursor: grab;
+  user-select: none;
 }
 
 .sec-second .shoe-images:active {
