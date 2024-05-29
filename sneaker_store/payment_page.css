@@ -40,21 +40,21 @@ body {
   font-weight: 450;
   color: silver;
   position: relative;
-  top: 12px;
+  top: 8px;
 }
 
 .left-div-sec h1 {
-  transform: translateY(38px);
+  transform: translateY(34px);
   font-size: 1.5rem;
   font-weight: 520;
 }
 
 .usr-inpt-mail {
-  transform: translateY(20px);
+  transform: translateY(18px);
 }
 
 .usr-inpt-mail>h2 {
-  padding: 9px 0px;
+  padding: 4px 0px;
   font-weight: 520;
 }
 
@@ -65,7 +65,7 @@ body {
   padding: 0px 5px;
   text-align: left;
   border-radius: 10px;
-  border: 1px solid #bebbbb;
+  border: 1px solid #c3c0c0;
   background-color: #f5f5f5;
 }
 
@@ -75,11 +75,11 @@ body {
 }
 
 .pymt-bx {
-  padding: 10px 20px 0px 20px;
-  border: 1px solid #000;
+  padding: 16px 18px;
+  border: 1px solid #bebbbb;
   width: auto;
-  height: 370px;
-  transform: translateY(48px);
+  height: 385px;
+  transform: translateY(38px);
   border-radius: 10px;
 }
 
@@ -94,34 +94,44 @@ body {
 }
 
 .tpe-pay>.pyBx {
+  user-select:none;
   width: 120px;
   height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 12px;
+  gap: 2px;
   border-radius: 10px;
-  border: 1px solid #fc9d39;
-  color: #fc9d39;
+  border: 2px solid #d2d2d2;
   font-size: 1.1rem;
   font-weight: 420;
+  color: #898888;
 }
 
-/* .pyBx>img {
+.pymt-bx .pybxB1 {
+  color: #fc9d39;
+  border-color: #fc9d39;
+}
 
-  color: #e99132;
+.pymt-bx .pybxB4 span {
+  width: 6px;
+  height: 6px;
+  transform: translateX(41px);
+  margin-bottom: 3px;
+  background-color: #979595;
+  border-radius: 50%;
+  border: 1px solid #e3dfdf;
+  color: black;
+}
 
-} */
-
-/* .pyBxLast{
-} */
 .lstseCtc {
   width: 100%;
   height: auto;
   padding-top: 18px;
   display: grid;
   column-gap: 22px;
-  row-gap: 15px;
+  row-gap: 20px;
   grid-template-columns: 50% 45%;
   grid-template-rows: 68px 68px 68px;
 }
@@ -134,13 +144,23 @@ body {
   height: 52px;
   border-radius: 10px;
   background-color: #f5f5f5;
-  border: 1px solid #a29f9f;
+  border: 1px solid #c3c0c0;
   outline: none;
+}
+
+.inBox>label {
+  position: relative;
+  top: -2px;
 }
 
 .inBox1 {
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+.inBox3>input::placeholder {
+  font-size: 2.2rem;
+  opacity: 75%;
 }
 
 
@@ -252,13 +272,14 @@ input:-internal-autofill-selected {
 }
 
 .total-priceSec>.Pcd1 {
-  font-weight: 480
+  font-weight: 480;
+  font-size: 1.1rem;
 }
 
 .total-priceSec>.Pcd2 {
   color: black;
   font-weight: 550;
-  font-size: 0.995rem;
+  font-size: 1.1rem;
 }
 
 .lastsecpay {
