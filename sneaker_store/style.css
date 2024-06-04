@@ -24,8 +24,6 @@ body {
   background: linear-gradient(0deg, rgb(251, 173, 100) 0%, rgba(253, 135, 45, 0.028435886073179262) 75%);
 }
 
-
-
 .navBox {
   width: 100%;
   margin-top: 16px;
@@ -149,8 +147,9 @@ body {
   color: rgb(12, 114, 20);
   cursor: pointer;
 }
-.mainbody{
-  width: 100vh;
+
+.mainbody {
+  width: 100vw;
   height: auto;
 }
 
@@ -202,9 +201,14 @@ body {
 }
 
 .icon-div-left {
-  transform: translate(105px, 100px);
+  transform: translate(100px, 100px);
   width: 8vw;
-  height: 6vh;
+  height: auto;
+}
+
+.icon-div-left>img {
+  width: 80px;
+  height: 22px;
 }
 
 .left-div button {
@@ -225,10 +229,10 @@ body {
 }
 
 .Outmain_lowSec {
-  transform: translateY(12px);
+  transform: translateY(2px);
   width: 100vw;
   display: flex;
-  height: auto;
+  height: 20vh;
   background-color: rgb(255 135 5);
 }
 
@@ -256,7 +260,7 @@ body {
 
 .ovrvwSec span {
   transform: translateY(-10px);
-  font-weight: 280;
+  font-weight: 300;
   font-size: 1rem;
   display: inline-block;
 }
@@ -348,163 +352,267 @@ body {
 }
 
 
-@media screen and (min-width:767px) and (max-width:1024px){
+@media screen and (min-width:767px) and (max-width:1024px) {
+
   .navBox {
     width: 100%;
     margin-top: 20px;
   }
-  
-.rightnavlist>.list-items {
-  display: flex;
-  gap: 18px;
+
+  .rightnavlist>.list-items {
+    display: flex;
+    gap: 18px;
+  }
+
+  .rightnavlist>.list-items li {
+    list-style: none;
+    font-size: 0.980rem;
+  }
+
+  .logoBox>a {
+    text-decoration: none;
+    color: var(--links-color);
+    font-size: 1.1rem;
+    color: rgb(255 135 5);
+  }
+
+  .srchBar {
+    padding: 4px;
+    width: 105px;
+    height: 33px;
+  }
+
+  .cartBox {
+    width: 55px;
+    height: 33px;
+    border: 2px solid #dbd9d9;
+    border-radius: 8px;
+  }
+
+  .userBox button {
+    transition: 0.7s;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 0.600rem;
+  }
+
+  .right-div>.land-Shoe img {
+    transform: rotate(24deg) translate(10px, 20px);
+    width: 480px;
+    height: 480px;
+  }
+
+  .bannerDesc {
+    transform: translate(42px, 105px);
+    width: 34vw;
+    height: auto;
+  }
+
+  .bannerDesc>h1 {
+    width: 32vw;
+    height: auto;
+    font-size: 2.3rem;
+    line-height: 36px;
+    text-align: left;
+    white-space: wrap;
+  }
+
+  .bannerDesc p {
+    font-size: 0.840rem;
+    text-align: left;
+    white-space: wrap;
+    margin: 18px 0px;
+  }
+
+  .icon-div-left {
+    transform: translate(42px, 100px);
+    width: 8vw;
+    height: auto;
+  }
+
+  .icon-div-left>img {
+    width: 68px;
+    height: 20px;
+  }
+
+  .left-div button {
+    transform: translate(-40px, 120px);
+    width: 136px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #272727;
+    font-size: 0.790rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .Outmain_lowSec {
+    width: 100vw;
+    display: flex;
+    height: 115px;
+    background-color: rgb(255 135 5);
+    transform: translateY(8px);
+  }
+
+  .ovrvwSec {
+    white-space: wrap;
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ovrvwSec-Dsgn>.rvwimagebox>img {
+    transform: translateX(-23px);
+    width: 46px;
+    height: 46px;
+  }
+
+  .ovrvwSec span {
+    transform: translate(-24px, -8px);
+    font-weight: 300;
+    font-size: 0.950rem;
+    display: inline-block;
+  }
+
+  .ovrvwSec h1 {
+    transform: translateX(-25px);
+    font-weight: 450;
+    font-size: 1.4rem;
+  }
 }
 
-.rightnavlist>.list-items li {
-  list-style: none;
-  font-size: 0.980rem;
+
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+
+  .logoBox>a {
+    font-size: 1.12rem;
+  }
+
+  .srchBar {
+    padding: 4px;
+    width: 105px;
+    height: 33px;
+  }
+
+  .cartBox {
+    width: 55px;
+    height: 33px;
+  }
+
+  .userBox button {
+    transition: 0.7s;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 0.600rem;
+  }
+
+  .icon-div-left {
+    transform: translate(88px, 100px);
+    width: 8vw;
+    height: auto;
+  }
+
+  .icon-div-left>img {
+    width: 72px;
+    height: 22px;
+  }
+
+  .right-div>.land-Shoe img {
+    transform: rotate(24deg) translate(10px, 20px);
+    width: 500px;
+    height: 500px;
+  }
+
+  .rightnavlist>.list-items {
+    display: flex;
+    gap: 22px;
+  }
+
+  .rightnavlist>.list-items li {
+    list-style: none;
+    font-size: 1.05rem;
+  }
+
+  .bannerDesc {
+    transform: translate(90px, 105px);
+    width: 30vw;
+    height: auto;
+  }
+
+  .bannerDesc p {
+    font-size: 0.950rem;
+    text-align: left;
+    white-space: wrap;
+    margin: 14px 0px;
+  }
+
+  .bannerDesc>h1 {
+    width: 32vw;
+    height: auto;
+    font-size: 2.3rem;
+    line-height: 36px;
+    text-align: left;
+    white-space: wrap;
+  }
+
+  .left-div button {
+
+    transform: translate(-45px, 120px);
+    width: 140px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #272727;
+    font-size: 0.820rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .Outmain_lowSec {
+    width: 100vw;
+    display: flex;
+    height: 115px;
+    background-color: rgb(255 135 5);
+    transform: translateY(12px);
+  }
+
+  .ovrvwSec {
+    white-space: wrap;
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ovrvwSec-Dsgn>.rvwimagebox>img {
+    transform: translateX(-23px);
+    width: 50px;
+    height: 50px;
+  }
+
+  .ovrvwSec span {
+    transform: translate(-24px, -8px);
+    font-weight: 300;
+    font-size: 0.980rem;
+    display: inline-block;
+  }
+
+  .ovrvwSec h1 {
+    transform: translateX(-25px);
+    font-weight: 450;
+    font-size: 1.5rem;
+  }
 }
 
-.logoBox>a {
-  text-decoration: none;
-  color: var(--links-color);
-  font-size: 1.1rem;
-  color: rgb(255 135 5);
-}
-
-.rightbx22 .btn-search {
-  outline: none;
-  border: none;
-  background-color: white;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.srchBar {
-  padding: 4px;
-  width: 105px;
-  height: 33px;
-  border-radius: 8px;
-  border: 2px solid #dbd9d9;
-  outline: none;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  gap: 3px;
-}
-
-.cartBox {
-  width: 55px;
-  height: 33px;
-  border: 2px solid #dbd9d9;
-  border-radius: 8px;
-}
-
-.userBox button {
-  transition: 0.7s;
-  margin-right: 10px;
-  width: 40px;
-  height: 40px;
-  font-size: 0.600rem;
-  font-weight: bolder;
-  background-color: rgba(247, 176, 53, 0.479);
-  border-radius: 50%;
-  border: none;
-  color: rgb(12, 114, 20);
-  cursor: pointer;
-}
-
-.right-div>.land-Shoe img {
-  transform: rotate(24deg) translate(10px, 20px);
-  width: 480px;
-  height: 480px;
-}
-
-.bannerDesc {
-  transform: translate(42px, 105px);
-  width: 34vw;
-  height: auto;
-}
-
-.bannerDesc>h1 {
-  width: 32vw;
-  height: auto;
-  font-size: 2.3rem;
-  line-height:36px;
-  text-align: left;
-  white-space: wrap;
-}
-
-.bannerDesc p {
-  font-size: 0.840rem;
-  text-align: left;
-  white-space: wrap;
-  margin: 18px 0px;
-}
-
-.icon-div-left {
-  transform: translate(42px, 100px);
-  width: 8vw;
-  height: 6vh;
-}
-
-.left-div button {
-  transform: translate(-40px, 120px);
-  width: 140px;
-  height: 42px;
-  border: none;
-  border-radius: 50px;
-  color: white;
-  background-color: #272727;
-  font-size: 0.820rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.Outmain_lowSec {
-  width: 100vw;
-  display: flex;
-  height: 115px;
-  border: 1px solid #000;
-  background-color: rgb(255 135 5);
-}
-
-.ovrvwSec {
-  white-space: wrap;
-  display: flex;
-  width: 100%;
-  height:auto;
-  color: white;
-  justify-content: center;
-  align-items: center;
-}
-
-.ovrvwSec-Dsgn>.rvwimagebox>img {
-  transform: translateX(-23px);
-  width: 50px;
-  height: 50px;
-}
-
-.ovrvwSec span {
-  transform: translate(-24px,-8px);
-  font-weight: 280;
-  font-size: 0.980rem;
-  display: inline-block;
-}
-
-.ovrvwSec h1 {
-  transform: translateX(-25px);
-  font-weight: 450;
-  font-size: 1.5rem;
-}
-}
-
-/* @media screen and(min-width:1024px)and(max-width:1200px){
-  
-}
-
-@media screen and(min-width:1200px)and(max-width:1600px){
-  
-} */
+@media screen and(min-width:1280px)and(max-width:1600px) {}
