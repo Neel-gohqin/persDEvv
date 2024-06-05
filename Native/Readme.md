@@ -1,6 +1,6 @@
-#An advance Desktop application
+## An advance Desktop application
 
-:automate our daily task through voice command.
+**automate our daily task through voice command**<br>
 Features: <br>
         1.Fullcontrol on device <br>
         2.control browser <br>
