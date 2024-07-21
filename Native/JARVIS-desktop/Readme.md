@@ -8,3 +8,14 @@ Features: <br>
         4.Access Mobile and sending message/calling <br> 
         5.Many more.....
 
+<center><a href="Native/JARVIS-desktop/JARVIS_Desktop/JARVISS.exe" title="download button"> <button>Download Exe</button></a></center>
+
+## Setup Code & Environment
+
+<strong>Requirements:</strong> Latest Python, Install the librarys in terminal using  command "pkg install" ->
+
+<p>pyautogui, speech_recognition, pyttsx3, wikipedia, pywhatkit, requests, PyQt5, QtGui, subprocess, matplotlib, mpl_toolkits
+wolframalpha, turtle.</p>
+
+<strong>Clone the repositry and open in code editor</strong>
+<strong>set assets as per code for the gui</strong>
