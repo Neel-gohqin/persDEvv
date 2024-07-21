@@ -8,7 +8,11 @@ Features: <br>
         4.Access Mobile and sending message/calling <br> 
         5.Many more.....
 
-<center><a href="Native/JARVIS-desktop/JARVIS_Desktop/JARVISS.exe" title="download button"> <button>Download Exe</button></a></center>
+<center>
+<a href="https://github.com/Neel-gohqin/persDEvv/raw/8ccbeea8ba21ad3504e58e63b5e8b0f6957a42c0/Native/JARVIS-desktop/JARVIS_Desktop/JARVISS.exe?download"  title="download button"> <button>Download Exe</button>
+</a>
+</center>
+
 
 ## Setup Code & Environment
 
@@ -17,5 +21,7 @@ Features: <br>
 <p>pyautogui, speech_recognition, pyttsx3, wikipedia, pywhatkit, requests, PyQt5, QtGui, subprocess, matplotlib, mpl_toolkits
 wolframalpha, turtle.</p>
 
-<strong>Clone the repositry and open in code editor</strong>
-<strong>set assets as per code for the gui</strong>
+<strong>Clone the repositry and open in code editor</strong> 
+<strong>Set assets as per code for the gui</strong>
+
+
