@@ -21,7 +21,8 @@ Features: <br>
 <p>pyautogui, speech_recognition, pyttsx3, wikipedia, pywhatkit, requests, PyQt5, QtGui, subprocess, matplotlib, mpl_toolkits
 wolframalpha, turtle.</p>
 
-<strong>Clone the repositry and open in code editor</strong> 
+
+<strong>Clone the repositry and open in code editor</strong><br>
 <strong>Set assets as per code for the gui</strong>
 
 
