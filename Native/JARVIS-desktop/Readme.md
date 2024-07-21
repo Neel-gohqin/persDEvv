@@ -19,7 +19,7 @@ Features: <br>
 <strong>Requirements:</strong> Latest Python, Install the librarys in terminal using  command "pkg install" ->
 
 <p>pyautogui, speech_recognition, pyttsx3, wikipedia, pywhatkit, requests, PyQt5, QtGui, subprocess, matplotlib, mpl_toolkits
-wolframalpha, turtle.</p>
+wolframalpha, turtle.</p><br>
 
 
 <strong>Clone the repositry and open in code editor</strong><br>
