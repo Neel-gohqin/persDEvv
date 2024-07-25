@@ -52,6 +52,7 @@ vs code<br>
 
 
 
+
 <strong>
 FUNCTIONS:</strong><br>
 Open/close apps<br>
@@ -78,6 +79,7 @@ file explorer<br>
 
 
 
+
 <Strong>AUTOMATE DEVICE:</Strong><br>
 switch window<br>
 shutdown pc<br>
@@ -88,6 +90,8 @@ minimize all<br>
 previous window<br>
 open file manager <br>
 control left right up down<br>
+
+
 
 
 
@@ -104,6 +108,8 @@ fullscreen<br>
 small screen<br>
 minimize the screen<br>
 film mode <br>
+
+
 
 
 
