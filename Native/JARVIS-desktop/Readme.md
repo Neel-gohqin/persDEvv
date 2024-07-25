@@ -50,6 +50,8 @@ notepad<br>
 command prompt<br>
 vs code<br>
 
+
+
 <strong>
 FUNCTIONS:</strong><br>
 Open/close apps<br>
@@ -72,6 +74,7 @@ conversation<br>
 google maps<br>
 mail<br>
 file explorer<br>
+<br>
 
 
 
@@ -87,6 +90,7 @@ open file manager <br>
 control left right up down<br>
 
 
+
 <strong>AUTOMATE YOUTUBE:</strong><br>
 pause<br>
 play<br>
@@ -100,6 +104,7 @@ fullscreen<br>
 small screen<br>
 minimize the screen<br>
 film mode <br>
+
 
 
 <strong>AUTOMATE BROWSER:</strong><br>
