@@ -18,7 +18,7 @@ Features: <br>
 </center>
 
 
-## Setup Code & Environment Setup
+## Setup Code & Environment
 
 <strong>Requirements:</strong> Latest Python, Install the librarys in terminal using  command "pkg install" ->
 
