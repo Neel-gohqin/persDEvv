@@ -30,7 +30,8 @@ wolframalpha, turtle.</p><br>
 <strong>Set assets as per code for the gui</strong>
 <br>
 
-##COMMAND AND FUNCTION TO USE THE APPLICATION <br>
+
+## COMMAND AND FUNCTION TO USE THE APPLICATION <br>
 <strong>APPS :</strong> <br>
 chrome<br>
 browser<br>
