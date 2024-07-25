@@ -28,85 +28,83 @@ wolframalpha, turtle.</p><br>
 
 <strong>Clone the repositry and open in code editor</strong><br>
 <strong>Set assets as per code for the gui</strong>
+<br>
 
+##COMMAND AND FUNCTION TO USE THE APPLICATION
+<strong>APPS :</strong> <br>
+chrome<br>
+browser<br>
+msword<br>
+powerpoint<br>
+excel<br>
+camera<br>
+filemanager<br>
+control pannel<br>
+operate left right up down<br>
+clock<br>
+photos<br>
+mail<br>
+storage/this pc<br>
+notepad<br>
+command prompt<br>
+vs code<br>
 
-<br> APPS OPEN
-----------------------------------
-chrome
-browser
-msword
-powerpoint
-excel
-camera
-filemanager
-control pannel
-operate left right up down
-clock
-photos
-mail
-storage/this pc
-
-
-FUNCTIONS
-------------------------------------------
-notepad
-command prompt
-vs code
-youtube search
-google search
-open google
-open youtube
-open website
-wheather report
-time
-wiikipea result
-take Screenshot
-calculate
-camera
-take photo
-play music
-location find
-my location
-conversation
-google maps
-mail
-file explorer
-
-AUTOMATE DEVICE
-----------------------------
-switch window
-shutdown pc
-restart pc
-lock pc
-unlock pc
-minimize all
-previous window
-open file manager 
-control left right up down
+<strong>
+FUNCTIONS</strong><br>
+Open/close apps<br>
+youtube search<br>
+google search<br>
+open google<br>
+open youtube<br>
+open website<br>
+wheather report<br>
+time<br>
+wiikipea result<br>
+take Screenshot<br>
+calculate<br>
+camera<br>
+take photo<br>
+play music<br>
+location find<br>
+my location<br>
+conversation<br>
+google maps<br>
+mail<br>
+file explorer<br>
 
 
 
-AUTOMATE YOUTUBE    
-------------------------------
-pause
-play
-resume
-stop
-mute
-unmute
-skip
-back
-fullscreen
-small screen
-minimize the screen
-film mode
+<Strong>AUTOMATE DEVICE:</Strong><br>
+switch window<br>
+shutdown pc<br>
+restart pc<br>
+lock pc<br>
+unlock pc<br>
+minimize all<br>
+previous window<br>
+open file manager <br>
+control left right up down<br>
 
 
-AUTOMATE BROWSER
---------------------------------------
-close one tab
-close exit recent tab
-close number 2/3/4 tab
+<strong>AUTOMATE YOUTUBE:</strong><br>
+pause<br>
+play<br>
+resume<br>
+stop<br>
+mute<br>
+unmute<br>
+skip<br>
+back<br>
+fullscreen<br>
+small screen<br>
+minimize the screen<br>
+film mode <br>
+
+
+<strong>AUTOMATE BROWSER:</strong><br>
+close one tab<br>
+close exit recent tab<br>
+close number 2/3/4 tab<br>
 close 2/3/4/5 tab/tabs -together
 
 
