@@ -13,8 +13,7 @@ Features: <br>
 
 
 <center>
-<a href="https://github.com/Neel-gohqin/persDEvv/raw/8ccbeea8ba21ad3504e58e63b5e8b0f6957a42c0/Native/JARVIS-desktop/JARVIS_Desktop/JARVISS.exe?download"  title="download button"> <button>Download Exe</button>
-</a>
+
 </center>
 
 
